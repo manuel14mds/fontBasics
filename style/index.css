@@ -82,6 +82,27 @@ nav a:visited{
     margin-bottom: 5px;
 }
 
+footer{
+    background-color: var(--color-one);
+    color: var(--color-two);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+footer .footer-figure{
+    height: 40px;
+    width: 40px;
+    border-radius: 12px 0px 12px;
+    background-color: var(--color-three);
+    background-image: linear-gradient(160deg, var(--color-three) 0%, var(--color-five) 100%);
+}
+footer .copy-left{
+    font-weight: 400;
+    font-size: 1rem;
+}
 
 
 @media (min-width: 500px) {
