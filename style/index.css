@@ -82,6 +82,97 @@ nav a:visited{
     margin-bottom: 5px;
 }
 
+.topics{
+    background-color: var(--color-four);
+    width: 100%;
+}
+.topics .carousel{
+    margin: 0;
+    border: 0px 1px;
+    border-color: black;
+}
+
+.carousel-box-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-carousel{
+    width: 100%;
+}
+
+/* --------- Generador de textos 1*/
+/* .box-g{
+    height: 500px;
+    background-color: var(--color-one);
+    background-image: linear-gradient(90deg, var(--color-one) 0%, var(--color-four) 100%);
+    display: grid;
+    place-items: center;
+}
+.box-g .textGenerate{
+    display: block;
+}
+.box-g .textGenerate .text-g{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-two);
+} */
+
+/* -------- Generador de textos 2*/
+/* .box-g{
+    height: 500px;
+    background-color: var(--color-five);
+    background-image: linear-gradient(90deg, var(--color-five) 0%, var(--color-one) 100%);
+    display: grid;
+    place-items: center;
+}
+.box-g .textGenerate{
+    display: block;
+}
+.box-g .textGenerate .text-g{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-three);
+} */
+
+/* --------- Generador de textos 3*/
+/* .box-g{
+    height: 500px;
+    background-color: var(--color-four);
+    background-image: linear-gradient(90deg, var(--color-four) 0%, var(--color-two) 100%);
+    display: grid;
+    place-items: center;
+}
+.box-g .textGenerate{
+    display: block;
+}
+.box-g .textGenerate .text-g{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-five);
+} */
+
+
+/* --------- Generador de textos 4*/
+/* .box-g{
+    height: 500px;
+
+    background-color: var(--color-four);
+    background-image: linear-gradient(0deg, var(--color-four) 0%, var(--color-two) 100%);
+
+    display: grid;
+    place-items: center;
+}
+.box-g .textGenerate{
+    display: block;
+}
+.box-g .textGenerate .text-g{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-five);
+}
+ */
+
 footer{
     background-color: var(--color-one);
     color: var(--color-two);
@@ -129,7 +220,9 @@ footer .copy-left{
     .about .about-text-box .about-p{
         margin-bottom: 5px;
     }
-    
+    .img-carousel{
+        max-width: 1200px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -161,4 +254,5 @@ footer .copy-left{
     .about .about-text-box .about-p{
         font-size: 1.2rem;
     }
+    
 }

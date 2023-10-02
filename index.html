@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./style/index.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -30,15 +33,93 @@
         <section class="about">
             <h2 class="about-title">About</h2>
             <div class="about-text-box">
-                <p class="about-p">This website has been created as a practical and illustrative way to view various CSS styling solutions.</p>
-                <p class="about-p">I often have to look back at projects I've created in the past to remember some solutions. With this website I will try to compile those useful solutions to have closer at hand.</p>
+                <p class="about-p">This website has been created as a practical and illustrative way to view various CSS
+                    styling solutions.</p>
+                <p class="about-p">I often have to look back at projects I've created in the past to remember some
+                    solutions. With this website I will try to compile those useful solutions to have closer at hand.
+                </p>
             </div>
         </section>
+
+        <section class="topics">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#"  class="carousel-box-img">
+                            <img src="./images/topcis/grid-layout-columns.png" class=" img-carousel" alt="Grid Columns">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Grid Colums</h5>
+                            <p>Create a layout with Grid Columns System</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="carousel-box-img">
+                            <img src="./images/topcis/aspect-ratio.png" class="d-block img-carousel" alt="Aspect Ratio">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Aspect Ratio</h5>
+                            <p>Create a box who maintain the same aspect ratio through diferents resolutions</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="carousel-box-img">
+                            <img src="./images/topcis/transformations.png" class="d-block img-carousel" alt="Animatins & transformations">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Transformations & Animations</h5>
+                            <p>Create custom Animations and transformations</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="carousel-box-img">
+                            <img src="./images/topcis/z-index.png" class="d-block img-carousel" alt="Z Index">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Z Index</h5>
+                            <p>create diferent layers and manage their positions</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <!-- <section class="box-g">
+            <div class="textGenerate">
+                <h2 class="text-g">Z Index</h2>
+            </div>
+        </section> -->
+
     </main>
     <footer>
         <div class="footer-figure"></div>
         <span class="copy-left">© 2023 Front Basics. Manuel Florez</span>
         <p></p>
     </footer>
+
+    <!-- Bootstrap 5.3 -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
