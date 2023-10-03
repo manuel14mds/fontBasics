@@ -1,45 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
 
-    --color-one:#e63946;
-    --color-two:#f1faee;
-    --color-three:#a8dadc;
-    --color-four:#457b9d;
-    --color-five:#1d3557;
-}
-
-nav{ 
-    background-color: var(--color-two) ;
-    color: var(--color-five);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-    padding: 20px;
-}
-nav a{ 
-    text-decoration: none;
-    display: block;
-    font-size: 0.9rem;
-}
-nav a:first-child{ 
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-right: auto;
-}
-nav a:visited{ 
-    color: var(--color-five);
-}
-
-.logo-nav{
-    width: 30px;
-    border-radius: 9px 0px 9px;
-}
 .home{
     background-color: var(--color-two);
 }
@@ -173,27 +132,7 @@ nav a:visited{
 }
  */
 
-footer{
-    background-color: var(--color-one);
-    color: var(--color-two);
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-footer .footer-figure{
-    height: 40px;
-    width: 40px;
-    border-radius: 12px 0px 12px;
-    background-color: var(--color-three);
-    background-image: linear-gradient(160deg, var(--color-three) 0%, var(--color-five) 100%);
-}
-footer .copy-left{
-    font-weight: 400;
-    font-size: 1rem;
-}
+
 
 
 @media (min-width: 500px) {
